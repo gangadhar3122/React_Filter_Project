@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+small,
+.small {
+  font-size: 85%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-xs-6 {
+  float: left;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #008bcf;
+  border-color: #008bcf;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+}
+
+.navbar-custom {
+  background: white;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) !important;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) !important;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  border: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  z-index: 98;
+}
+
+body {
+  background-color: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 70px;
+  font-family: "Arial", sans-serif, Helvetica;
+}
+
+.bodyM {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+@media (min-width: 1200px) {
+  .bodyM {
+    width: 1195px;
+    margin-left: 20%;
+  }
+}
+.sidenav {
+  margin-left: 5%;
+  margin-top: 40px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.toppings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.toppings-list li {
+  margin-bottom: 0.5rem;
+}
